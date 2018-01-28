@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@android:color/white"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="#29B6F6"
+        android:gravity="center_vertical"
+        android:text="Get Your Nano Degree Now"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:id="@+id/linerLayout_Left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="032dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/udacity_mark" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/map" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/phone_icon" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/website" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linerLayout_Right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/linerLayout_Left"
+            android:background="@drawable/backgroundcolor"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Udacity"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="2465 Latham St Mountain View, CA 94043"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="650-555-5555"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="www.udacity.com"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
