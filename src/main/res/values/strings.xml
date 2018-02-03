@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
+    <string name="announcment">Get Your Nano Degree Now</string>
+    <string name="address">2465 Latham St Mountain View, CA 94043</string>
+    <string name="telephone_number">650-555-5555</string>
+    <string name="URL">www.udacity.com</string>
 </resources>

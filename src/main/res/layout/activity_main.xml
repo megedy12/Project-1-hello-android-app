@@ -20,9 +20,9 @@
         android:layout_weight="1.5"
         android:background="#29B6F6"
         android:gravity="center_vertical"
-        android:text="Get Your Nano Degree Now"
+        android:text="@string/announcment"
         android:textAlignment="center"
-        android:textColor="@android:color/black"/>
+        android:textColor="@android:color/black" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -37,11 +37,6 @@
             android:layout_marginRight="16dp"
             android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="032dp"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:src="@drawable/udacity_mark" />
 
             <ImageView
                 android:layout_width="32dp"
@@ -71,44 +66,33 @@
             android:background="@drawable/backgroundcolor"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:text="Udacity"
-                android:textAlignment="center"
-                android:textColor="@android:color/white"
-                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="2465 Latham St Mountain View, CA 94043"
+                android:text="@string/address"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"
-                />
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="650-555-5555"
+                android:text="@string/telephone_number"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"
-                />
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="www.udacity.com"
+                android:text="@string/URL"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
 
